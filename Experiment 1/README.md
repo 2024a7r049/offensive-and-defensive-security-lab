@@ -72,6 +72,9 @@ The identified vulnerabilities are analyzed and appropriate security measures ar
 
 Nmap successfully identifies the target's exposed ports and services, while Nessus provides a detailed vulnerability assessment of the target system. The combined results demonstrate how reconnaissance and vulnerability assessment contribute to both offensive security testing and defensive security planning.
 
+!(output.png)
+
+
  Conclusion
 
 This experiment provides practical understanding of how **Nmap and Nessus** can be used together for security assessment. It demonstrates the importance of identifying exposed services and vulnerabilities so that appropriate defensive measures can be implemented.
