@@ -85,7 +85,7 @@ A sample result may contain services such as:
 445/tcp   microsoft-ds
 ```
 
-![Nmap Scan](output-1.jpeg)
+![Nmap Scan](outputs/output-1.jpeg)
 
 **Observation:** Service enumeration provides useful information about the applications and versions running on the target and helps in identifying possible vulnerabilities.
 
@@ -98,6 +98,7 @@ Start the Metasploit console using:
 ```bash
 msfconsole
 ```
+![Nmap Scan](outputs/output-4.png)
 
 After the console loads, the installed Metasploit version can be checked with:
 
@@ -123,7 +124,8 @@ The search results should include a module related to:
 vsftpd 2.3.4 Backdoor
 ```
 
-![Metasploit Search](output-2.jpeg)
+![Metasploit Search](outputs/output-1.jpeg)
+
 
 **Observation:** Metasploit's search functionality helps locate modules associated with known vulnerabilities.
 
@@ -221,6 +223,7 @@ and:
 ```bash
 id
 ```
+![Nmap Scan](outputs/output-2.jpeg)
 
 **Observation:** Successful execution of these commands demonstrates that the vulnerable service allowed command execution within the controlled target environment.
 

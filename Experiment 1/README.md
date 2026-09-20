@@ -31,6 +31,7 @@ Example:
 ```bash
 nmap -sV <target-ip>
 ```
+![Nmap Scan](outputs/output4.png)
 
 The scan provides information about:
 
@@ -51,6 +52,7 @@ The results can include:
 * Low-risk vulnerabilities
 * Informational findings
 
+![Nmap Scan](outputs/output6.png)
  3. Attack Simulation
 
 The information obtained from Nmap and Nessus can be used to understand how an attacker might identify and target vulnerable services.
@@ -72,7 +74,7 @@ The identified vulnerabilities are analyzed and appropriate security measures ar
 
 Nmap successfully identifies the target's exposed ports and services, while Nessus provides a detailed vulnerability assessment of the target system. The combined results demonstrate how reconnaissance and vulnerability assessment contribute to both offensive security testing and defensive security planning.
 
-!(output.png)
+![Nmap Scan](outputs/output6.png)
 
 
  Conclusion
